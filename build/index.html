@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    
+    <title>product page </title>
+</head>
+<body>
+
+    <!--container-->
+   <div class="px-5 py-8   flex flex-col gap-6  lg:p-20 xl:px-24 xl:py-16">
+<!--top nav-->
+<div class="flex flex-row items-center ">
+    <span class="font-sans font-semibold text-productgreen text-xs uppercase">Home</span>
+    <iconify-icon icon="material-symbols:chevron-right"></iconify-icon>
+    <span class="font-sans font-semibold text-productgreen text-xs uppercase">Funiture</span>
+    <iconify-icon icon="material-symbols:chevron-right"></iconify-icon>
+    <span class="font-sans font-semibold  text-xs uppercase text-black">Aliquam odouawa</span>
+</div>
+
+<!-- product container-->
+<div class="flex flex-col gap-7 lg:flex-row ">
+    <!--product image-->
+    <div class="relative lg:w-2/4 xl:w-1/2">
+        <img src="images/product.webp" alt="">
+        <span class=" font-sans bg-productgreen text-white px-2 py-1 w-fit uppercase text-xs font-bold absolute top-4 left-4">sale!</span>
+    </div>
+
+    <!--product details-->
+    <div class="flex flex-col gap-7 lg:w-2/4 xl:w-1/2 xl:px-16">
+        <h3 class="font-sans font-bold text-3xl text-zinc-900">Aliquam odouawa</h3>
+
+        <div class="flex flex-row gap-2">
+            <h3 class="text-zinc-800 font-bold text-xl">$69.00</h3>
+            <span class="text-zinc-600 line-through  text-base">$79.00</span>
+        </div>
+        
+<div class="space-y-6">
+    <p class="font-sans text-base text-zinc-900 font-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ut temporibus laboriosam, labore a praesentium voluptates voluptas pariatur ducimus quis atque accusantium repellat autem iste, eligendi quas ipsum commodi vero.</p>
+    <p class="font-sans text-base text-zinc-900 font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque maiores possimus quisquam beatae. Facilis deserunt quas cupiditate. Quasi eveniet nam et quaerat perspiciatis voluptas, vel adipisci, iste blanditiis architecto deserunt, est quia magni? Numquam, voluptatem.</p>
+</div>
+        <div class="border-b text-zinc-400"></div>
+        <button class="text-white bg-productgreen w-fit md:w-1/2 px-10 py-4">add to cart</button>
+    </div> 
+</div>
+   </div>
+</body>
+</html>
